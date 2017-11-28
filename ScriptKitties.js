@@ -702,4 +702,4 @@ var runAllAutomation = setInterval(function() {
 		
 	}
 
-}, 20);
+}, 5);
