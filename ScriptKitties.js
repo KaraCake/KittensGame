@@ -681,10 +681,7 @@ var runAllAutomation = setInterval(function() {
 	autoNip();
 	autoPraise();
 	autoBuild();
-	
-	if (gamePage.timer.ticksTotal % 2 === 0) {
-		autoCraft();
-	}
+	autoCraft();
 	if (gamePage.timer.ticksTotal % 3 === 0) {
 		autoObserve();
 		autoHunt();
